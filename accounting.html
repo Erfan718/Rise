@@ -26,13 +26,13 @@
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-youtube"></i>
             </div>
-            <form action="/your-upload-endpoint"method="POST" enctype="multipart/form-data" id="login" class="input-group">
-                <input type="text" name="" class="input-field" placeholder="نام کاربری " style="padding-right:20px ;"
+            <form action="/login"method="POST" enctype="multipart/form-data" id="login" class="input-group">
+                <input type="text" name="username" class="input-field" placeholder="نام کاربری " style="padding-right:20px ;"
                     required>
-                <input id="passwordInput" type="password" name="" class="input-field" placeholder="رمز عبور "
+                <input id="passwordInput" type="password" name="password" class="input-field" placeholder="رمز عبور "
                     style="padding-right:20px ; padding: bottom 100px;" required>
-                <span id="togglePassword" onclick="togglePasswordVisibility()">
-                    <i class="fa fa-eye icon" id="eyeIcon" aria-hidden="true"></i>
+                <span id="togglePassword">
+                    <i class="fa fa-eye icon" id="eyeIcon" aria-hidden="true" onclick=" togglePasswordVisibility() "></i>
                 </span>
                 <input type="checkbox" class="check-box"><span style="margin-top: 2px;">مرا به خاطر بسپار</span>
                 <button type="submit" class="submit-btn">ورود</button>
@@ -46,17 +46,17 @@
                 <input class="ersal" type="submit" value="ارسال">
             </form>
 
-            <form action="/your-upload-endpoint"method="POST" enctype="multipart/form-data" id="register" class="input-group">
-                <input type="text" name="" class="input-field" placeholder="نام کاربری " style="padding-right:20px ;"
+            <form action="/register"method="POST" enctype="multipart/form-data" id="register" class="input-group">
+                <input type="text" name="username" class="input-field" placeholder="نام کاربری " style="padding-right:20px ;"
                     required>
-                <input id="passwordInput" type="password" name="" class="input-field" placeholder="رمز عبور "
-                    style="padding-right:20px ; padding: bottom 100px;" required>
-                <span id="togglePassword" onclick="togglePasswordVisibility()">
-                    <i class="fa fa-eye icon" id="eyeIcon" aria-hidden="true"></i>
+                <input id="passwordInput2" type="password" name="password" class="input-field" placeholder="رمز عبور " 
+                    style="padding-right:20px ; padding: bottom 100px;" required >
+                <span id="togglePassword" >
+                    <i class="fa fa-eye icon" id="eyeIcon" aria-hidden="true"  onclick=" togglePasswordVisibility()"></i>
                 </span>
                 <input type="email" name="" class="input-field" placeholder="ایمیل" style="padding-right:20px ;"
                     required>
-             <span class="check-span">  <input type="checkbox" class="check-box"><span style="margin-top: 2px;">قوانین و مقررات سایت را می پذیرم</span></span>  
+             <span class="check-span">  <input type="checkbox" class="check-box"><span style="margin-top: 2px; color: #000; font-weight: 600;">قوانین و مقررات سایت را می پذیرم</span></span>  
                 
                 <button type="submit" class="submit-btn">ثبت نام</button>
             </form>
@@ -66,7 +66,7 @@
 
 
     <script src="js/loginreg.js"></script>
-
+    <script src="js/server.js"></script>
 
     
 </body>

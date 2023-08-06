@@ -1,0 +1,460 @@
+@font-face {
+    font-family: 'BYekan';
+    src: url(../fonts/BYekan.woff)format('woff');
+    font-weight: normal;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'Gandom';
+    src: url(../fonts/Gandom-FD.woff)format('woff');
+    font-weight: normal;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'iransans';
+    src: url(../fonts/irsans.woff)format('woff');
+    font-weight: normal;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'parastoo';
+    src: url(../fonts/Parastoo-FD.woff)format('woff');
+    font-weight: normal;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    word-spacing: 0.2cm;
+    font-size: medium;
+    font-weight: 600;
+    src: url(../fonts/Vazir.woff2)format('woff2');
+    font-weight: normal;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'YekanFD';
+    src: url(../fonts/YekanFD.woff)format('woff');
+    font-weight: normal;
+    font-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.paraghraph {
+    word-spacing: 0.1rem;
+    font-weight: 700;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Vazir';
+}
+
+.landing {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+
+}
+
+.home-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-inner {
+    position: fixed !important;
+    background: url(../images/person/main.jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.glass {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.222);
+}
+
+.caption {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    color: #ffffff;
+    text-shadow: 0.1rem 0.1rem 0.6rem #000;
+    background: rgba(191, 171, 171, 0.347);
+}
+
+.caption h1 {
+
+
+    font-family: 'YekanFD';
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 0.1rem 0.1rem 0.6rem #000;
+    padding-bottom: 0.6rem;
+}
+
+.caption h3 {
+    font-family: 'Gandom';
+    font-size: 2rem;
+    padding-bottom: 1.6rem;
+}
+
+.caption .btn-start {
+    font-weight: 400;
+    font-family: 'YekanFD';
+    font-size: 1.2rem;
+    border-width: 0.1rem;
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    color: #252424;
+    text-shadow: none !important;
+}
+
+/* navbar */
+
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #22ebe4 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+
+    font-family: 'Vazir' !important;
+    font-size: larger;
+}
+
+.navbar-brand {
+    font-family: 'Gandom' !important;
+    font-weight: bold;
+    font-size: large !important;
+
+    letter-spacing: 0.1rem;
+}
+
+
+
+
+/* end navbar */
+
+
+
+/* about rise */
+#about {
+    position: relative;
+    height: auto;
+    display: block;
+}
+
+.area {
+    margin: 0 auto;
+    padding: 3rem 2rem 1rem;
+}
+
+.area h2 {
+    font-weight: bold;
+    font-size: 2.2rem;
+    font-family: 'YekanFD';
+    letter-spacing: 0.08rem;
+    padding-bottom: 1rem;
+}
+
+.area p {
+    font-family: 'Gandom';
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn-secondary {
+    border-width: 0.1rem !important;
+    border-radius: 0 !important;
+    font-size: 1.2rem !important;
+    padding: 0.6rem 1.2rem !important;
+    margin: 1rem !important;
+    background-color: #1ebba3 !important;
+    border-color: #1ebba3 !important;
+    color: white !important;
+    border-radius: 5px !important;
+}
+
+.btn-secondary:hover {
+    background-color: #199885 !important;
+    background-color: #199885 !important;
+
+}
+
+/* end about rise */
+
+
+/* services */
+.jumbotron {
+    margin-bottom: 0 !important;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+
+
+}
+
+h2.title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'YekanFD';
+}
+
+.underline {
+    width: 20rem;
+    height: 0.2rem;
+    background-color: #1ebba3;
+    margin: 1rem auto 2rem;
+}
+
+.service i {
+    color: #1ebba3;
+    padding-bottom: 1.5rem;
+}
+
+.service h3 {
+    font-family: 'Vazir';
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 0.4rem;
+}
+
+.service p {
+
+    font-size: 1rem;
+
+}
+
+/* end services */
+
+
+/* product group */
+.group-background {
+    object-fit: cover;
+    position: relative;
+    color: #fff;
+    padding: 4rem 2rem;
+}
+
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+.fixed {
+    align-items: first baseline;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url(../images/person/web-development.jpg);
+    background-size: cover;
+    background-position: center center;
+    object-fit: contain;
+}
+
+.glass2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: rgba(40, 38, 103, 0.547);
+}
+
+i.icon {
+    color: rgb(129, 247, 99);
+}
+
+
+/* end product group */
+
+
+/* teachers */
+
+.persons {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#teachers {
+    width: 100%;
+
+}
+
+blockquote.i {
+    color: #22ebe4;
+    margin: 1rem
+}
+
+blockquote {
+    text-align: justify;
+    font-family: 'Vazir' !important;
+    font-size: medium;
+    font-weight: 600;
+}
+
+/* end teachers */
+
+/* Author */
+#authors .jumbotron {
+    padding: 1rem 0 3rem;
+
+}
+
+.author .card {
+    margin-top: 4rem;
+    border-radius: 0;
+    box-shadow: 3px 2px 5px #1ebba3;
+    margin: 1rem 0;
+
+
+}
+
+.author .card:hover {
+    /* background-color: #199885; */
+    background-image: linear-gradient(90deg, #1b8b87fd 5%, #127196f0 50%, #00d5ff38 120%);
+}
+
+.author .card:hover i,
+.author .card:hover h3,
+.author .card:hover p {
+    color: white;
+}
+
+.card-body h3 {
+    position: relative;
+    color: #3e3a3a;
+    font-family: 'YekanFD';
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+
+    padding-bottom: 0.6rem;
+}
+
+.card-body img {
+    margin-top: -6rem;
+
+}
+
+.crd {
+    margin-bottom: 50px;
+    align-items: center !important;
+}
+
+.card-body i {
+    color: #00000074;
+    font-size: 1.8rem;
+}
+
+.card-body i:hover {
+    color: #000 !important;
+    animation: alternate !important;
+}
+
+/* End author */
+
+
+/* footer */
+footer {
+    background-color: #3e3a4a;
+}
+
+footer i:hover {
+    color: #1ebba3 !important;
+}
+
+footer hr {
+    width: 100%;
+    border-top: 0.2rem solid #b6bec8eb;
+    margin-top: 3rem;
+}
+
+/* end footer */
+
+
+/* icon menu */
+.btn-group-fab {
+    position: fixed;
+    height: auto;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+}
+
+.btn-group-fab .btn {
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-group-fab .btn-main {
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    line-height: 2;
+}
+
+.btn-group-fab .btn-sub {
+    right: 60%;
+    bottom: 0;
+    z-index: 1;
+    margin-right: -25px;
+    transition: all 0.6s;
+}
+
+.btn-group-fab.active .btn-sub:nth-child(2) {
+    bottom: 60px;
+}
+
+.btn-group-fab.active .btn-sub:nth-child(3) {
+    bottom: 110px;
+}
+
+.btn-group-fab.active .btn-sub:nth-child(4) {
+    bottom: 160px;
+}
+
+/* end icon menu */
+

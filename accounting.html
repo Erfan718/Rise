@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود و ثبت نام</title>
+    <link rel="icon" href="images/logo/logo-color11.png " type="image/icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/loginreg.css">
+</head>
+
+<body class="rtl">
+    <div class="main-box">
+        <div class="form-box password-input-container">
+            <div class="button-box">
+                <div id="account-btn"></div>
+                <button type="button" class="toggle-btn" onclick="Register()">ثبت نام</button>
+                <button type="button" class="toggle-btn" style="margin-right: 0.8rem;" onclick="Login()">ورود</button>
+            </div>
+            <div class="social-icons">
+                <i class="fab fa-github "></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <form action="/your-upload-endpoint"method="POST" enctype="multipart/form-data" id="login" class="input-group">
+                <input type="text" name="" class="input-field" placeholder="نام کاربری " style="padding-right:20px ;"
+                    required>
+                <input id="passwordInput" type="password" name="" class="input-field" placeholder="رمز عبور "
+                    style="padding-right:20px ; padding: bottom 100px;" required>
+                <span id="togglePassword" onclick="togglePasswordVisibility()">
+                    <i class="fa fa-eye icon" id="eyeIcon" aria-hidden="true"></i>
+                </span>
+                <input type="checkbox" class="check-box"><span style="margin-top: 2px;">مرا به خاطر بسپار</span>
+                <button type="submit" class="submit-btn">ورود</button>
+                <span class="res ">
+                   
+                    <input type="file" class="custom-file-input input-field" id="resume" name="resume" placeholder=" اختیاری"
+                        accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                        <label for="resume" class="custom-file-label input-field" style="padding-right: 10px; color: black;">فایل رزومه</label>
+                </span>
+
+                <input class="ersal" type="submit" value="ارسال">
+            </form>
+
+            <form action="/your-upload-endpoint"method="POST" enctype="multipart/form-data" id="register" class="input-group">
+                <input type="text" name="" class="input-field" placeholder="نام کاربری " style="padding-right:20px ;"
+                    required>
+                <input id="passwordInput" type="password" name="" class="input-field" placeholder="رمز عبور "
+                    style="padding-right:20px ; padding: bottom 100px;" required>
+                <span id="togglePassword" onclick="togglePasswordVisibility()">
+                    <i class="fa fa-eye icon" id="eyeIcon" aria-hidden="true"></i>
+                </span>
+                <input type="email" name="" class="input-field" placeholder="ایمیل" style="padding-right:20px ;"
+                    required>
+             <span class="check-span">  <input type="checkbox" class="check-box"><span style="margin-top: 2px;">قوانین و مقررات سایت را می پذیرم</span></span>  
+                
+                <button type="submit" class="submit-btn">ثبت نام</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="js/loginreg.js"></script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,146 @@
+/* 98.12.5 */
+
+
+
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir.eot');
+    src: url('Vazir.eot?#iefix') format('embedded-opentype'),
+         url('Vazir.woff2') format('woff2'),
+         url('Vazir.woff') format('woff'),
+         url('Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: VazirFD;
+    src: url('Vazir-FD.eot');
+    src: url('Vazir-FD.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-FD.woff2') format('woff2'),
+         url('Vazir-FD.woff') format('woff'),
+         url('Vazir-FD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('Shabnam.eot');
+  src: url('Shabnam.eot?#iefix') format('embedded-opentype'),
+       url('Shabnam.woff2') format('woff2'),
+       url('Shabnam.woff') format('woff'),
+       url('Shabnam.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: ShabnamFD;
+  src: url('Shabnam-FD.eot');
+  src: url('Shabnam-FD.eot?#iefix') format('embedded-opentype'),
+       url('Shabnam-FD.woff2') format('woff2'),
+       url('Shabnam-FD.woff') format('woff'),
+       url('Shabnam-FD.ttf') format('truetype');
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: Samim;
+  src: url('Samim.eot');
+  src: url('Samim.eot?#iefix') format('embedded-opentype'),
+       url('Samim.woff2') format('woff2'),
+       url('Samim.woff') format('woff'),
+       url('Samim.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: SamimFD;
+  src: url('Samim-FD.eot');
+  src: url('Samim-FD.eot?#iefix') format('embedded-opentype'),
+       url('Samim-FD.woff2') format('woff2'),
+       url('Samim-FD.woff') format('woff'),
+       url('Samim-FD.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Parastoo;
+  src: url('Parastoo.eot');
+  src: url('Parastoo.eot?#iefix') format('embedded-opentype'),
+       url('Parastoo.woff2') format('woff2'),
+       url('Parastoo.woff') format('woff'),
+       url('Parastoo.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: ParastooFD;
+  src: url('Parastoo-FD.eot');
+  src: url('Parastoo-FD.eot?#iefix') format('embedded-opentype'),
+       url('Parastoo-FD.woff2') format('woff2'),
+       url('Parastoo-FD.woff') format('woff'),
+       url('Parastoo-FD.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+    font-family: Tanha;
+    src: url('Tanha.eot');
+    src: url('Tanha.eot?#iefix') format('embedded-opentype'),
+         url('Tanha.woff') format('woff'),
+         url('Tanha.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: TanhaFD;
+    src: url('Tanha-FD.eot');
+    src: url('Tanha-FD.eot?#iefix') format('embedded-opentype'),
+         url('Tanha-FD.woff') format('woff'),
+         url('Tanha-FD.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+  font-family: Gandom;
+  src: url('Gandom.eot');
+  src: url('Gandom.eot?#iefix') format('embedded-opentype'),
+       url('Gandom.woff') format('woff'),
+       url('Gandom.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: GandomFD;
+  src: url('Gandom-FD.eot');
+  src: url('Gandom-FD.eot?#iefix') format('embedded-opentype'),
+       url('Gandom-FD.woff') format('woff'),
+       url('Gandom-FD.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('Sahel.eot');
+  src: url('Sahel.eot?#iefix') format('embedded-opentype'),
+       url('Sahel.woff2') format('woff2'),
+       url('Sahel.woff') format('woff'),
+       url('Sahel.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: SahelFD;
+  src: url('Sahel-FD.eot');
+  src: url('Sahel-FD.eot?#iefix') format('embedded-opentype'),
+       url('Sahel-FD.woff2') format('woff2'),
+       url('Sahel-FD.woff') format('woff'),
+       url('Sahel-FD.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+    font-family: Yekan;
+    src: url('Yekan.eot');
+    src: url('Yekan.eot?#iefix') format('embedded-opentype'),
+         url('Yekan.woff2') format('woff2'),
+         url('Yekan.woff') format('woff'),
+         url('Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

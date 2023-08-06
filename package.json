@@ -1,0 +1,19 @@
+{
+  "name": "rise",
+  "version": "1.0.0",
+  "description": "software development",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "software",
+    "development",
+    "startup"
+  ],
+  "author": "Erfan Khazeni",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

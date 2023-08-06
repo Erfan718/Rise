@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'BYekan';
+    src: url(../fonts/BYekan.woff)format('woff');
+    font-weight: normal;
+    font-style: none;
+}
+@font-face {
+    font-family: 'Vazir';
+    word-spacing: 0.1cm;
+    font-size:large;
+    font-weight: 800;
+    src: url(../fonts/Vazir.woff2)format('woff2');
+    font-style: none;
+}
+@font-face {
+    font-family: "Gandom";
+    src: url(../fonts/Gandom.ttf)format('ttf');
+    src: url("fonts/Gandom.ttf");
+  }
+   
+
+
+*{
+margin: 0;
+padding: 0;
+direction: rtl !important;
+font-family: "Vazir",sans-serif;
+
+}
+  .main-box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/88.jpg);
+    background-size: cover;
+    position: center !important;
+    overflow: hidden;
+  }
+
+  .form-box{
+
+    justify-content:center ;
+    margin: 0 auto;
+    margin-bottom: auto;
+    width: 350px;
+    height:550px;
+    position: relative;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.204);
+    backdrop-filter: blur(5px);
+    margin:10% auto;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem 0.5rem #07033123;
+    
+  }
+  .button-box{
+    width: 220px;
+    margin: 1.2rem auto;
+    position: relative;
+    border-radius: 1.8rem;
+    font-size: 1rem;
+    box-shadow: 0 0 1rem 0.5rem #3725ff5b;
+  }
+  .toggle-btn{
+    position: relative;
+    padding:0.6rem 1.8rem;
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    border-style: none;
+    
+  }
+  .toggle-btn:focus{
+   outline:none;
+   
+  }
+  .custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+
+  #account-btn{
+    position:absolute ;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    border-radius: 1.8rem;
+    background-image: linear-gradient(to right, #198dbef2,#1ebba3);
+  }
+.social-icons{
+margin: 1rem auto;
+text-align: center;
+}
+
+.social-icons i{
+    text-align: center;
+    width: 38px;
+    height: 38px;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    background-image: linear-gradient(to right, #198dbef2,#1ebba3);
+    color: white;
+    margin-top: 10px;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.input-group{
+  position: absolute;
+  top:200px;
+  width: 280px;
+  
+}
+.input-field{
+  width: 100%;
+  margin:0.3rem 0 ;
+  padding: 0.6rem 0;
+  border-bottom:1px solid #999 ;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.249);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+
+.password-input-container {
+  position: relative;
+ 
+} 
+
+#passwordInput {
+  padding-right: 30px; /* تنظیم فاصله از طرف راست برای جا دادن آیکون چشم */
+}
+
+#togglePassword {
+ width:1px;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+}
+
+.icon{
+
+  margin-right: 250px;
+  width: 50px;
+  color:gray;
+
+} 
+.check-box{
+margin: 5px;
+
+} 
+.submit-btn{
+  width: 80%;
+  margin: auto !important;
+  cursor: pointer;
+  padding: 0.6rem 1.5rem ;
+  display: block;
+  border-style: none;
+  background-image: linear-gradient(to right, #198dbef2,#1ebba3);
+  border-radius: 1.8rem;
+  margin-top: 10px !important;
+}
+
+.res{
+  width: 80%;
+  height: auto;
+  position: relative;
+  margin: 10px auto;
+}
+
+.rtl .custom-file-label::after, [dir=rtl] .custom-file-label::after{
+border-radius: 1.8rem;
+margin-top: auto;
+background-color: #9b9ea6d3;
+cursor: pointer !important;
+}
+.custom-file-input:lang(en)~.custom-file-label::after {
+  content: "انتخاب فایل";
+}
+
+.ersal{
+  margin: 0 auto;
+  height: 30px;
+  width: 25%;
+  background-image: linear-gradient(to right, #198dbef2,#1ebba3);
+  border-radius: 1.8rem;
+  border-style: none;
+}
+#login{
+  left: 50px;
+}
+#register{
+  left: 450px;
+}
+
+#register #togglePassword{
+  top: 97px !important;
+}
+
+.check-span{
+  margin: 10px;
+}
+
+

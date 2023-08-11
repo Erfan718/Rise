@@ -48,7 +48,7 @@ font-family: "Vazir",sans-serif;
     background-position: center;
     background-color: rgba(255, 255, 255, 0.204);
     backdrop-filter: blur(5px);
-    margin:10% auto;
+    margin:5% auto;
     padding: 2rem;
     border-radius: 5px;
     box-shadow: 0 0 1rem 0.5rem #07033123;
@@ -173,6 +173,7 @@ margin: 5px;
   background-image: linear-gradient(to right, #198dbef2,#1ebba3);
   border-radius: 1.8rem;
   margin-top: 10px !important;
+
 }
 
 .res{
@@ -220,3 +221,10 @@ align-items: center;
 }
 
 
+.back_index{
+  margin: 0;
+  padding: 0;
+height: 50px;
+
+
+}
